@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+   
+    <main class="base">
+        <div class="calculator">
+            <div class="result">
+               
+            </div>
+            <div class="numbers">
+                <div class="botoes">
+                    <button data-action="clear">Clear</button>
+                </div>
+                <div class="botoes">
+                    <button data-key="1" class="number" id="1">1</button>
+                    <button data-key="2" class="number" id="2">2</button>
+                    <button data-key="3" class="number" class="number" id="3">3</button>
+                    <button data-action="add" class="number op" id="adicao">+</button>
+                </div>
+                <div class="botoes">
+                    <button data-key="4" class="number" id="4">4</button>
+                    <button data-key="5" class="number" id="5">5</button>
+                    <button data-key="6" class="number" id="6">6</button>
+                    <button data-action="subtract" class="number op" id="sub">-</button>
+                </div>
+                <div class="botoes">
+                    <button data-key="7"  class="number" id="7">7</button>
+                        <button data-key="8"  class="number" id="8">8</button>
+                        <button data-key="9"  class="number" id="9">9</button>
+                        <button data-action="multiply" class="number op" id="multiplicacao">*</button>
+                </div>
+                <div class="botoes">
+                    <button data-key="0" class="number" id="0">0</button>
+                    <button data-action="decimal" id="decimal">,</button>
+                    <button data-action="calculate" id="igualdade">/</button>
+                    <button data-action="divide" class="number op" id="divisao">=</button>
+                </div>
+            </div>
+        </div>
+    </main>
+<script src="index.js"></script>
+</body>
+
+</html>
